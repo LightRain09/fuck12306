@@ -36,7 +36,7 @@ class Client:
 
 	def check_user_page(self, url):
 		html_txt = self.get_html(url)
-		print "check_user", u'邹冬冬' in html_txt
+		print "check_user", u'邹' in html_txt
 
 	def get_img(self, t=1):
 		while True:
